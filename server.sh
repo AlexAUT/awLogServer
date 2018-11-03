@@ -1,7 +1,7 @@
 #!/bin/sh
 
 APP_NAME="app"
-USER="awLogServer"
+USER="logServer"
 GROUP="$USER"
 NODE_ENV="production"
 PORT="15909"
