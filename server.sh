@@ -1,11 +1,12 @@
 #!/bin/sh
 
 APP_NAME="app"
-USER="alex"
+USER="awLogServer"
 GROUP="$USER"
 NODE_ENV="production"
 PORT="15909"
-APP_DIR="/home/alex/Documents/git/awLogServer"
+ROOT_DIR="$(dirname "$(readlink -f "$0")")"
+APP_DIR=$ROOT_DIR
 NODE_APP="bin/www"
 KWARGS=""
 CONFIG_DIR="$APP_DIR"
